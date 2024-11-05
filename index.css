@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one{
+    height: 28vh;
+    width: 100%;
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    background-color: rgb(83, 83, 83);
+}
+.one img{
+    position: relative;
+    left : 50px;
+    height: 110px;
+    width: 110px;
+}
+.one h1{
+    position: relative;
+    left: 50px;
+    color: aliceblue;
+}
+.flex{
+    position:relative;
+    top: 2px;
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(83, 83, 83);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex li{
+    width: 30%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-size:23px;
+    font-weight: bolder;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.flex li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+
+}
+.flex li a:hover{
+    /* display: inline-block; */
+    height: 100%;
+    width: 100%;
+    color: black;
+   background-color: lightcoral;
+}
+.two{
+    position: relative;
+    top: 40px;
+    height: 55vh;
+    margin: auto;
+    /* background-color: brown; */
+    width: 100%;
+    /* float: right; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.two img{
+    position: relative;
+    right: 30px;
+    width: 30%;
+    height:65%;
+    float: left;
+}
+.two .p1{
+    text-align: justify;
+    text-indent: 50px;
+    width: 50%;
+    float: right;
+    font-size: 20px;
+}
+.three{
+    position: relative;
+    top: 170px;
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(83, 83, 83);
+}
+.three footer{
+    font-weight: lighter;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    position: relative;
+    top: 80px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.three .ul1{
+    float: left;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 105px;
+    left: 310px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.ul1 a{
+    color: aliceblue;
+    text-decoration:  none;
+}
+.ul1:hover{
+    cursor: pointer;
+}
+.three .mai input{
+    position: relative;
+    left: 480px;
+    top: 110px;
+    width: 28vw;
+    height: 6vh;
+    /* border: 2px solid white; */
+    border-radius: 7px;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.three .mai button{
+    position: relative;
+    left: 165px;
+    top: 180px;
+    border-radius: 30px;
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    height: 6vh;
+    width: 13vw;
+    background-color: transparent;
+}
+.three .ul2{
+    float: left;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 70px;
+    left: 1030px;
+    gap: 25px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.ul2:hover{
+    cursor: pointer;
+}
